@@ -12,7 +12,7 @@ height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 #out = cv2.VideoWriter('output2.mov', fourcc, 20.0, (width, height))
 
 start_time = time.time()
-timer = 2 * 60 # x minutes in y seconds
+timer = 2 * 60 
 
 prey_detected = False
 run_once = False
@@ -29,7 +29,6 @@ while cap.isOpened():
                   for key, value in detections.items()}
     detections['num_detections'] = num_detections
 
-    # detection_classes should be ints.
     detections['detection_classes'] = detections['detection_classes'].astype(np.int64)
 
     label_id_offset = 1
