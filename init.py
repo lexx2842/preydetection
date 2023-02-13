@@ -1,4 +1,4 @@
-#installation necessary packages & definition variables
+#installation packages, dependencies. Some variables
 
 import os
 CUSTOM_MODEL_NAME = 'my_ssd_mobnet' 
