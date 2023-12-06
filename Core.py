@@ -12,7 +12,7 @@ height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 #out = cv2.VideoWriter('output2.mov', fourcc, 20.0, (width, height))
 
 start_time = time.time()
-timer = 2 * 60 
+timer = 2 * 30 
 
 prey_detected = False
 run_once = False
