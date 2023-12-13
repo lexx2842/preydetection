@@ -17,6 +17,8 @@ timer = 60
 prey_detected = False
 run_once = False
 
+#testest
+
 while cap.isOpened(): 
     ret, frame = cap.read()
     image_np = np.array(frame)
